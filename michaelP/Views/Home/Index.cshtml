@@ -1,0 +1,169 @@
+﻿@{
+    ViewData["Title"] = "Michael Poblacion | Software Engineer";
+}
+<a class="anchor" name="intro"></a>
+<div>
+    <div id="particles-js">
+        <div class="intro-div">
+            <p class="purple">Welcome. My name is</p>
+            <h1>Michael Poblacion.</h1>
+            <h2>The versatile software engineer.</h2>
+            <br />
+            <a class="action-button" href="mailto:mpoblacion92@gmail.com">Email me</a>
+        </div>
+    </div>
+</div>
+<a class="anchor" name="aboutme">a</a>
+<div class="container">
+    
+    <h3 class="grey">About.</h3>
+    <div class="row">
+        <div class="col-sm-7 " id="skillBlock">
+            <button class="action-button" onclick="toggleSkills(0)">Back to bio</button>
+            <div class="skill-set-div" id="div1">
+                <div class="equal-cell-row">
+                    <a class="active-cell" id="skill-title1" onclick='skillBlock(1)'>Technical Skills</a>
+                    <a id="skill-title2" onclick='skillBlock(2)'>Technologies</a>
+                    <a id="skill-title3" onclick='skillBlock(3)'>Soft Skills</a>
+                </div>
+                <p class="skill-title" id="skill1">Technical Skill Set</p>
+                <ul class="skill-set" id="skill-set1">
+                    <li>Java </li>
+                    <li>C#</li>
+                    <li>C++</li>
+                    <li>SQL</li>
+                    <li>GraphQL</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>XAML</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+                <p class="skill-title initial-invisible" id="skill2">Technologies I've worked with</p>
+                <ul class="skill-set initial-invisible" id="skill-set2">
+                    <li>Sitecore</li>
+                    <li>SDL/Tridion</li>
+                    <li>.Net Core</li>
+                    <li>Xamarin</li>
+                    <li>Azure</li>
+                    <li>Oracle</li>
+                    <li>MySQL</li>
+                    <li>AWS</li>
+                    <li>Google Cloud Platform</li>
+                    <li>Qt</li>
+                </ul>
+                <p class="skill-title initial-invisible" id="skill3">Soft Skill Set</p>
+                <ul class="skill-set initial-invisible" id="skill-set3">
+                    <li>Problem-Solving</li>
+                    <li>Communication</li>
+                    <li>Strong Work Ethic</li>
+                    <li>Flexibility</li>
+                    <li>Adaptability</li>
+                    <li>Motivation</li>
+                    <li>Quick Learner</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-7 " id="about">
+            <button class="action-button" onclick="toggleSkills(1)">Full skill set</button>
+            <p class="box-para">
+                Software engineer situated in Fredericksburg, Virginia. Received a Bachelor of Science in Computer Science with a Concentration in Data Science
+                at Virginia Commonwealth University. Shortly into my studies I joined the team at <a href="https://www.Tahzoo.com">Tahzoo</a>, where I was promoted from
+                an intern to full-time Software Engineer, while still in school full-time. Backend code is where I thrive, with expertise in building web APIs,
+                cloud technologies, content management systems and object oriented programming.
+                My abilities certainly do not stop there however. I also have experience in architecting data science solutions and a fundamental understanding of
+                artificial intelligence.
+                <br /><br /><br />
+                Outside of software, I am an individual who loves to stay challenged and who is always looking for opportunities to progress. I am a lover of
+                my wife, my daughter, mountains, guitars and mangoes. One of my favorite quotes by Stephen Covey is "first master self, then collaborate with others".
+            </p>
+        </div>
+        <div class="col-sm-5">
+            <img class="responsive" src="~/assets/images/test.png" />
+        </div>
+    </div>
+
+    <a class="anchor" name="projects"></a>
+    
+
+    <div>
+        <h3 class="grey">Educational Projects</h3>
+        <h5>Machine Learning Algorithms</h5>
+        <h6>Course: Artificial Intelligence</h6>
+        <p>
+            Manually implemented multiple machine learning algorithms including a
+            Fuzzy Logic 3D Surface Controller, Kohonen winner-take-all neural network,
+            and Naïve Bayes classifier using Python. Used various graphical representations to
+            present the ouput.
+        </p>
+        <p>
+            Github Link:
+            <a href="https://github.com/mikeP-1107/artificial-intelligence">
+                Artificial Intelligence
+            </a>
+        </p>
+        <p>
+            <span>Grade Received: A</span>
+        </p>
+        <h5>Protein Classification</h5>
+        <h6>Course: Data Science</h6>
+        <p>
+            Placed in the top 3 of highest performing models in protein prediction.
+            As part of a 5-person team, implemented a model utilizing data science knowledge to define a
+            classifier. That classifier is expected to look at protein sequences and determine if the protein
+            interacts with DNA, RNA, both or neither.
+        </p>
+        <p>
+            Github Link:
+            <a href="https://github.com/gavinjalberghini/Protein-Interaction-Classifier">
+                Protein Classification
+            </a>
+        </p>
+        <p>
+            <span>Grade Received: A</span>
+        </p>
+        <h5>Health Information Gateway and Exchange</h5>
+        <h6>Course: Senior Design</h6>
+        <p>
+            A two-semester project which aimed to add features and bug fixes to a MEAN (MongoDB, Express.js, Angular, Node.js)
+        stack application. Some of the main features that were added to the application were a DICOM uploader and parser, a structure
+        mapping tool, angular forms, database additions and enhancements, authentication and containerization of the application. 
+        </p> <span>Grade Received: A</span>
+        <h5>Database Solutions</h5>
+        <h6>Course: Database Theory Course</h6>
+        <p>
+            Built a database management system for a mock client. Using Visual Studio .Net and Oracle SQL,
+            completed a fully operational system which had CRUD operations supporting employees, offices, departments, hardware,
+            employee certifications, projects, and project sponsors. The entire system was role based, displaying different data
+            dependent upon your defined role in the company.
+        </p>
+        <span>Grade Received: A</span>
+        <h5>Operating System Simulation</h5>
+        <h6>Course: Operating Systems</h6>
+        <p>
+            Implemented a simulation of an operating system using C++. The system featured four dynamic schedulers which simulated
+            round robin, multi-feedback-queue, shortest job, and highest priority algorithms. The project also included mutex locks,
+            multi-threading, and memory management. The GUI showed the processes' statuses in real time.
+        </p> <span>Grade Received: A</span>
+
+    </div>
+    <div>
+        <div class="row">
+            <h3 class="grey">Personal Projects</h3>
+        </div>
+        <h5>Authorization Server</h5>
+        <p>Using Visual Studio .Net and MySQL, I built an Authorization microservice. The microservice uses OAuth specifications.</p>
+        <h5>Virtual Reality Safety Awareness Application</h5>
+        <p>
+            Placed in the final 6 at RamHacks Hackathon in 2018. Built a virtual reality app which boasted safety tasks
+            including spotting safety hazards and a fire drill escape. The project was built using Unity.
+        </p>
+        <h5>Wumbo</h5>
+        <p>
+            Project built using
+        </p>
+    </div>
+
+    <a class="anchor" name="contact"></a>
+    <partial name="../Partials/ContactPartial.cshtml" />
+</div>
